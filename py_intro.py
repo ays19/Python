@@ -54,3 +54,13 @@ name = input()
 print("Name:"+ name)
 
 print("Sharar")
+
+#practice
+name1 = input("First name: ")
+name2 = input("Last name: ")
+name2 = "Rahman"
+age = 23
+cgpa = 3.5
+print("Name: " + name1 + " " + name2)
+print("Age: ", age)
+print("CGPA: " , cgpa + 0.25)
