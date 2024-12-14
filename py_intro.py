@@ -59,8 +59,10 @@ print("Sharar")
 name1 = input("First name: ")
 name2 = input("Last name: ")
 name2 = "Rahman"
-age = 23
-cgpa = 3.5
+age = int(input("Age: "))
+cgpa = float(input("Cgpa: "))
+age= age -2
+cgpa = cgpa+ 0.25
 print("Name: " + name1 + " " + name2)
 print("Age: ", age)
-print("CGPA: " , cgpa + 0.25)
+print("CGPA: " , cgpa)
