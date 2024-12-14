@@ -65,4 +65,4 @@ age= age -2
 cgpa = cgpa+ 0.25
 print("Name: " + name1 + " " + name2)
 print("Age: ", age)
-print("CGPA: " , cgpa)
+print("CGPA: " + str(cgpa))
