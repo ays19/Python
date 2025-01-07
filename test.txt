@@ -1,10 +1,11 @@
-1) First
-2)second
+1.First
+2.second
 3.Third
 4.fourth
-5.hdgfk
-6.text
-7.Numeric
-8.Image
+
+
+Numeric
+text
+Image
 Audio---> Image(mel frequency Cepstral coeffient)
 video--->Frames---> Image(mel frequency Cepstral coeffient)
