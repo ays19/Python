@@ -21,5 +21,7 @@ with open("test.txt" , "r") as f:
         l1.append(i)
     print(l1)
     print("ooo\n")
-    for i in range(3,6):
-        print(l1[i])  
+    # for i in range(3,6):
+    #     print(l1[i])  
+
+    print(l1[0][3:8])

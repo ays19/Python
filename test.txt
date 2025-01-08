@@ -1,11 +1,1 @@
-1.First
-2.second
-3.Third
-4.fourth
-
-
-Numeric
-text
-Image
-Audio---> Image(mel frequency Cepstral coeffient)
-video--->Frames---> Image(mel frequency Cepstral coeffient)
+This is a test file
