@@ -1,8 +1,10 @@
 class patient:
+    count=0 # Class variable
     def __init__(self, n, age, bg): # Constructor
         self.name = n  # Instance variable
         self.age = age  # Instance variable
         self.bg = bg
+        patient.count += 1  # Accessing class variable
 
     def printInfo(self):
         print(f"Name: {self.name}\nAge: {self.age}\nBlood Group: {self.bg}")
@@ -14,3 +16,4 @@ print(p1.name, p1.age, p1.bg)
 print(p2.name)
 print("000000")
 p1.printInfo()
+print(patient.count)
