@@ -3,7 +3,7 @@ class patient:
     def __init__(self, n, age, bg): # Constructor
         self.name = n  # Instance variable
         self.age = age  # Instance variable
-        self.bg = bg
+        self.bg = bg # Instance variable
         patient.count += 1  # Accessing class variable
 
     def printInfo(self):
