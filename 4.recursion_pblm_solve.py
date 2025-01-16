@@ -28,3 +28,4 @@ def rcs(s):  #recursive function
         print(s[0])
 
 rcs("Assalamualikumyou") #recursive call
+rcs([1,2,3,4,5])
