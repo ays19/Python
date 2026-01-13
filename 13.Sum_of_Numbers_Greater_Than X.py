@@ -5,5 +5,4 @@ total = 0
 for num in arr:
     if num > x:
         total += num
-print(total)        
-
+print(total)
